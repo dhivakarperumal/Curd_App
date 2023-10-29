@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2 class="item">Item List</h2>
+    <div class="values">
+        
+        <div class="table-responsive">
+        <table class="table">
+            
+            <thead>
+                <th scope="col">Name</th>
+                <th scope="col">Department</th>
+                <th scope="col">Place</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+            </thead>
+            
+            <tbody>
+                {% for item in students %}
+                <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.department }}</td>
+                <td>{{ item.place }}</td>
+                <td><a href="{% url 'update' item.pk %}" class="btn btn-primary">Edit</a></td>
+                <td><a href="{% url 'delete' item.pk %}" class="btn btn-danger">Delete</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+            
+        </table>
+    </div>
+        
+    </div>
+    <a  href="{% url 'insert' %}">Create New Item</a>
+</div>
+{% endblock %}
+
+           
+ 

@@ -1,0 +1,60 @@
+
+   /* h1{
+        text-align: center;
+        background-color: orange;
+        color: white;
+    }
+    main
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        width: 600px;
+        border-radius: 10px;
+        margin-top: 100px;
+        margin-left: 350px;
+        -webkit-box-shadow: 3px -6px 35px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 3px -6px 35px 0px rgba(0,0,0,0.75);
+        box-shadow: 3px -6px 35px 0px rgba(0,0,0,0.75);
+    }
+    a{
+        background:orange;
+        width: 100%;
+        font-weight: bolder;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        margin-top: 80px;
+        padding: 10px 0px;
+        border-radius: 10px;
+       
+    }
+    .item
+    {
+        color: white;
+        background-color: orange;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+        margin-top: 0px;
+    }
+    ol
+    {
+        color: black;
+        width: 100%;
+    }
+    ol li
+    {
+        padding: 10px 10px;
+        border-bottom: solid 1px black ;
+        width: 100%;
+    }
+    .values
+    {
+        width: 100%;
+        margin-left: 20px;
+        
+    }
+ */
